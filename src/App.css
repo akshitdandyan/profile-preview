@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.page{
+  height:90vh;
+  background-color: black;
+}
+.container{
+  height:400px;
+  width:400px;
+  border-radius:10px;
+  background-color: rgba(255,255,255,0.5);
+  margin:0;
+  position:absolute;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.img-holder{
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  padding-top: 210px;
+  padding-left:30px;
+}
+.img-holder img{
+  border-radius: 50%;
+}
+#input[type="file"]{
+  display:none;
+}
+.label{
+  display:flex;
+  justify-content: center;
+  margin-top:270px;
+}
+.image-upload{
+  text-align: center;
+  cursor:pointer;
+}
+.label1{
+    display:flex;
+    justify-content: flex-end;
+}
+.image-upload1{
+  cursor:pointer;
+}
+
+
+.info{
+  height:350px;
+  width:800px;
+  background-color: white;
+  margin-left: 600px;
+  margin-top:100px;
+  position: absolute;
+  border-radius: 10px;
+}
+.details{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:50px;
+}
+.details label{
+  font-size: 25px;
+  font-weight: bold;
+}
+.details input{
+  font-size: 25px;
+  outline:none;
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
